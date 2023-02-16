@@ -1,1 +1,1 @@
-# PLDL: plaintext-based deep learning
+# PLDL: plaintext-based deep learning for SCA
