@@ -111,7 +111,7 @@ if __name__ == "__main__":
         # perform attacks for each leakage model
         for i, leakage_model in enumerate(leakage_models):
             print("======{}======".format(leakage_model))
-            rank_evol = Attack.perform_attacks(pred, plt_profiling, target_byte, 10, num_of_attack_traces, target_key_0, leakage_model=leakage_model, shuffle=True)
+            rank_evol = Attack.perform_attacks(pred, plt_profiling, target_byte, 1, num_of_attack_traces, target_key_0, leakage_model=leakage_model, shuffle=False)
             print("Final rank: ", rank_evol[-1])
             print('GE smaller than 1:', np.argmax(rank_evol < 1))
             print('GE smaller than 5:', np.argmax(rank_evol < 5))
