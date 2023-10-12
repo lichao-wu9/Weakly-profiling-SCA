@@ -1,1 +1,1 @@
-Supplementary material for: Weakly-profiling Side-channel Analysis
+Supplementary material for Weakly-profiling Side-channel Analysis
