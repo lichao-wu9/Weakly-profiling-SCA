@@ -1,1 +1,1 @@
-# PLDL: plaintext-based deep learning for SCA
+Supplementary material for: Weakly-profiling Side-channel Analysis
