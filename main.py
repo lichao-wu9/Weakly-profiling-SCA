@@ -101,7 +101,7 @@ if __name__ == "__main__":
         num_of_attack_traces = len(X_profiling)
         
         # disable the augmentation layer and load the model weight
-        model_test, _ = DL_model.CNN(dataset, X_profiling.shape[1], 0)
+        model_test, _ = DL_model.CNN(X_profiling.shape[1], 0)
         model_test.set_weights(model.get_weights()) 
         
         # make predictions
